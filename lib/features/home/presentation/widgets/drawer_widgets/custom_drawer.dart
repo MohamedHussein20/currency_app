@@ -1,6 +1,6 @@
-import 'package:currency_app/features/home/presentation/widgets/custom_drawer_social_media_section.dart';
-import 'package:currency_app/features/home/presentation/widgets/custom_drawer_header.dart';
-import 'package:currency_app/features/home/presentation/widgets/custom_drawer_list_view.dart';
+import 'package:currency_app/features/home/presentation/widgets/drawer_widgets/custom_drawer_social_media_section.dart';
+import 'package:currency_app/features/home/presentation/widgets/drawer_widgets/custom_drawer_header.dart';
+import 'package:currency_app/features/home/presentation/widgets/drawer_widgets/custom_drawer_list_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

@@ -1,3 +1,4 @@
+import 'package:currency_app/core/resources/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:icons_plus/icons_plus.dart';
@@ -56,7 +57,10 @@ class SubscriptionCard extends StatelessWidget {
                   ),
                   minimumSize: Size(double.infinity, 40.h),
                 ),
-                child: const Text('Buy', style: TextStyle(color: Colors.white)),
+                child: Text(
+                  'Buy',
+                  style: TextStyles.style16Bold(color: Colors.white),
+                ),
               ),
             ],
           ),

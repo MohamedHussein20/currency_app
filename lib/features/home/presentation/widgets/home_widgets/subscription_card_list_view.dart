@@ -1,4 +1,4 @@
-import 'package:currency_app/features/home/presentation/widgets/subscription_card.dart';
+import 'package:currency_app/features/home/presentation/widgets/home_widgets/subscription_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

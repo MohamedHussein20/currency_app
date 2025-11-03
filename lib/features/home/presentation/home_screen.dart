@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:currency_app/features/bottom_nav/presentation/manager/bottom_nav_cubit.dart';
 import 'package:currency_app/features/bottom_nav/presentation/views/widgets/bottom_nav_app_bar.dart';
-import 'package:currency_app/features/home/presentation/widgets/home_screen_list_view.dart';
-import 'package:currency_app/features/home/presentation/widgets/custom_drawer.dart';
+import 'package:currency_app/features/home/presentation/widgets/home_widgets/home_screen_list_view.dart';
+import 'package:currency_app/features/home/presentation/widgets/drawer_widgets/custom_drawer.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

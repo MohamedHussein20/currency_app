@@ -1,5 +1,5 @@
 import 'package:currency_app/core/resources/colors.dart';
-import 'package:currency_app/features/home/presentation/widgets/home_screen_list_view_item.dart';
+import 'package:currency_app/features/home/presentation/widgets/home_widgets/home_screen_list_view_item.dart';
 import 'package:flutter/material.dart';
 
 

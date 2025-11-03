@@ -1,5 +1,7 @@
 import 'package:currency_app/features/home/presentation/remove_ads_screen.dart';
-import 'package:currency_app/features/home/presentation/widgets/custom_drawer_item.dart';
+import 'package:currency_app/features/home/presentation/signals_screen.dart';
+import 'package:currency_app/features/home/presentation/vip_subscription_screen.dart';
+import 'package:currency_app/features/home/presentation/widgets/drawer_widgets/custom_drawer_item.dart';
 import 'package:flutter/material.dart';
 
 class CustomDrawerListView extends StatelessWidget {
@@ -12,11 +14,27 @@ class CustomDrawerListView extends StatelessWidget {
         children: [
           CustomDrawerItem(icon: Icons.home, title: 'Home'),
           CustomDrawerItem(icon: Icons.school, title: 'Forex Strategies'),
-          CustomDrawerItem(icon: Icons.bar_chart, title: 'Signals Results'),
+          CustomDrawerItem(
+            icon: Icons.bar_chart,
+            title: 'Signals Results',
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const SignalsScreen()),
+              );
+            },
+          ),
           CustomDrawerItem(
             icon: Icons.workspace_premium,
             title: 'VIP subscription',
-            onTap: () {},
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => const VipSubscriptionScreen(),
+                ),
+              );
+            },
           ),
           CustomDrawerItem(
             icon: Icons.remove_circle_outline,

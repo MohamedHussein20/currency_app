@@ -3,8 +3,8 @@ import 'package:currency_app/features/home/presentation/widgets/home_widgets/sub
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class RemoveAdsScreen extends StatelessWidget {
-  const RemoveAdsScreen({super.key});
+class VipSubscriptionScreen extends StatelessWidget {
+  const VipSubscriptionScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,8 +13,8 @@ class RemoveAdsScreen extends StatelessWidget {
       body: Column(
         children: [
           const CustomDrawerCard(
-            title: 'Remove Ads',
-            details: 'Subscribe to remove ads and enjoy an ad-free experience.',
+            title: 'VIP Subscription',
+            details: 'Buy VIP subscription and get exclusive VIP features and VIP signals.',
           ),
 
           SizedBox(height: 25.h),

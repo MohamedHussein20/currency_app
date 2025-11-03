@@ -1,3 +1,4 @@
+import 'package:currency_app/core/resources/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -19,7 +20,7 @@ class CustomDrawerHeader extends StatelessWidget {
         backgroundColor: Colors.white,
         child: Text(
           "S",
-          style: TextStyle(fontSize: 28.sp, color: Colors.teal),
+          style: TextStyles.style24Bold(color: Colors.teal),
         ),
       ),
     );
