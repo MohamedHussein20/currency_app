@@ -2,11 +2,11 @@ import 'package:currency_app/core/resources/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class DetailRow extends StatelessWidget {
+class DetailsRow extends StatelessWidget {
   final String title;
   final String value;
 
-  const DetailRow({super.key, required this.title, required this.value});
+  const DetailsRow({super.key, required this.title, required this.value});
 
   @override
   Widget build(BuildContext context) {

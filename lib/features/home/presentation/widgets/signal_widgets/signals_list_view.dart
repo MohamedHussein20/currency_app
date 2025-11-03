@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'signal_item.dart';
 
-class SignalsList extends StatelessWidget {
-  const SignalsList({super.key});
+class SignalsListView extends StatelessWidget {
+  const SignalsListView({super.key});
 
   @override
   Widget build(BuildContext context) {

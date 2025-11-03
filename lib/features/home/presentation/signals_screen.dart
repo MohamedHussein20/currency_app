@@ -19,7 +19,7 @@ class SignalsScreen extends StatelessWidget {
             TabsSection(),
             SizedBox(height: 10),
             Expanded(
-              child: SignalsList(), // ✅ الجزء اللي فيه Scroll
+              child: SignalsListView(), // ✅ الجزء اللي فيه Scroll
             ),
           ],
         ),
